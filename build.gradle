@@ -1,0 +1,16 @@
+plugins {
+    id 'scala'
+}
+
+apply from: 'scala.gradle' //Replace with dotty.gradle to enable Scala 3.
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation scalaLib()
+}
