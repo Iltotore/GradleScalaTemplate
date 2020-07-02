@@ -13,10 +13,6 @@ ext {
 
 afterEvaluate {
     dependencies {
-        /*runtimeClasspath dottyModule('library')
-        runtimeClasspath dottyModule('compiler')
-        runtimeClasspath dottyModule('staging')
-        runtimeClasspath dottyDependency('tasty-core')*/
         implementation dottyModule('compiler')
     }
 

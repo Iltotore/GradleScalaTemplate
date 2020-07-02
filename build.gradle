@@ -2,7 +2,7 @@ plugins {
     id 'scala'
 }
 
-apply from: 'scala.gradle' //Replace with dotty.gradle to enable Scala 3.
+apply from: "${rootProject.rootDir}/scala.gradle" //Replace with dotty.gradle to enable Scala 3.
 
 group 'org.example'
 version '1.0-SNAPSHOT'
