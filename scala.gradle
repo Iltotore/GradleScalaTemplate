@@ -1,4 +1,4 @@
-apply from: "$rootProject.rootDir/common.gradle"
+apply from: "$rootProject.rootDir/commons.gradle"
 
 ext {
     scalaVersion = '2.13.3'
